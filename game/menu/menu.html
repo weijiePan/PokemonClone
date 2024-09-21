@@ -1,0 +1,28 @@
+<!--
+Overview:Menu page
+Functionalities:
+    -Start button -> redirects to main game
+    -Option button -> Adjusts volume
+    -Help -> redirects to help page
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./menu.css"/>
+        
+    </head>
+    <body>
+        <video class="background-animation" autoplay muted loop>
+            <source src="../../assets/videos/pokemon-startup-scene.mp4" type="video/mp4">
+        </video>
+        <div id="menu-ui-frame">
+            <a href="../tutorial/tutorial.html"><button class="menu-ui-button" id="start-button">Start</button></a>
+            <a><button class="menu-ui-button" id="option-button">Option</button></a>
+            <a><button class="menu-ui-button" id="help-button">Help</button></a>
+        </div>
+    </body>
+    <script src="menu.js"></script>
+</html>
