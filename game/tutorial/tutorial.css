@@ -1,0 +1,87 @@
+
+html,body{
+    margin:0;
+    height:100%;
+  
+}
+body{
+    overflow:hidden;
+    background-image:linear-gradient(90deg, rgba(127,127,143,1) 0%, rgba(215,215,236,1) 31%, rgba(188,221,233,1) 62%, rgba(88,130,142,1) 90%, rgba(21,70,80,1) 100%);
+}
+img{
+    position:absolute;
+    z-index:1;
+    object-fit:contain;
+    top:0;
+    left:0;
+    right:0;
+    bottom:100px;
+    margin:auto;
+    
+}
+.text-display{
+    position:absolute;
+   background-color: rgb(238, 237, 237);
+   border-color:rgb(184, 184, 184);
+   border-radius: 7px;
+   border-style: solid;
+   border-width: 3px;
+   height:15%;
+   width:70%; 
+   top:250px;
+   bottom:0;
+   left:0;
+   right:0;
+   margin:auto;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.text-display p{
+    font-family:ss;
+    font-size:2em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text-display button{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+#player-name-field-display{
+    position: absolute;
+    width:40%;
+    height:100px;
+    top:35%;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(226, 216, 216, 0.6);
+    z-index: 2;
+    display:block;
+    
+}
+#name-getter p{
+    text-align:right;
+    font-size: 30px;
+    color:rgb(8, 4, 4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#player-name-getter{
+    width: 20px;
+    display: block;
+    margin: auto;
+   width:100px;
+   height:20px;
+   margin-top:20px;
+   text-align: center;
+   margin-bottom: 20px;;
+}
+
+#name-submit{
+    display: block;
+    margin: auto;
+}
